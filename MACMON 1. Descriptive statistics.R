@@ -158,15 +158,6 @@ dev.off()
       # fill NAs with 0
       data.DC[is.na(data.DC)] <- 0
       
-economy_bc = c(34.1,9,2.4,1 , 0, 0, 0, 0, 0, 0, 0, 0)
-governance_bc =c(0, 0, 0, 0, 19.1,1.2,0,0.2, 0, 0, 0, 0)
-health_bc =c(0, 0, 0, 0, 0, 0, 0, 0, 12.1, 0, 0, 0)
-social_bc =c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.7, 0.7)
-economy_cc = c(4.3, 1.9, 1.4, 1, 0, 0, 0, 0, 0, 0, 0, 0)
-governance_cc =c(0, 0, 0, 0, 8.1,0.2,0.2,0.3, 0, 0, 0, 0)
-health_cc =c(0, 0, 0, 0, 0, 0, 0, 0, 1.6, 0.2, 0, 0)
-social_cc =c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.3, 0)
-
   # colors for each domain and category
 couleurs_eco = c("gray87", "gray70", "gray50", "gray30" )
 couleurs_gov = c("lightskyblue1", "steelblue1", "steelblue","steelblue2")
@@ -192,7 +183,7 @@ text(c(2,4.5,7,9.5),c(12,12,5,5),"Costs")
 dev.off()
 
 
-
+### to be continued
 ## Communities' benefits and costs according to livelihoods categories
 # benefits :
 x<- c(31.9,0.9,0.2,1.1, 7.3, 1.1,0.9,1.3, 2.6,0.2,0,0, 0,0.2,0,1.1, 21.2,0.9,0.2,0.4, 0.4,0.2,0.6,0.2, 0.2,0,0,0, 2.8,4.5,2.6,1.9, 0.6,0,0,0.2, 0.9,0,0,0)
